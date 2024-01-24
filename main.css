@@ -1,0 +1,27 @@
+body{
+  font-size: 100px;
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+label{
+  font-size: 15px;
+}
+
+/* .def_timer{
+  margin: 400px 0;
+  font-size: 200px;
+} */
+
+.def_timer_min{
+  display: inline-block;
+  font-size: 200px;
+  /* margin: 400px 0; */
+}
+
+.Remaining_time{
+  display: block;
+  margin: 400px 0;
+}
