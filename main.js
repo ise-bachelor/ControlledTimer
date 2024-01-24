@@ -96,6 +96,7 @@ let go_timer = ()=>{
 }
 
 function setCondition(){
+  audio.load();
   for (let i = 0; i < condition.length; i++){
     if (condition.item(i).checked){
       delta_time = 1000*condition.item(i).value;
