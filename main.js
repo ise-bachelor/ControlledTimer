@@ -8,7 +8,7 @@ let def_timer_min;
 let condition = document.getElementsByName('condition');
 
 const audio = new Audio("チーン2.mp3");
-let time_limit = 10;
+let time_limit = 8;
 let delta_time = 10;
 let time_now = 0; //経過時間
 let timer_id;
